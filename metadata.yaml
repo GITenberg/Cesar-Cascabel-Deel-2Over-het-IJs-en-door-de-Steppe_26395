@@ -1,0 +1,41 @@
+_repo: Cesar-Cascabel-Deel-2Over-het-IJs-en-door-de-Steppe_26395
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Verne, Jules
+    aliases:
+    - Verne, Jules Gabriel
+    - Verne, Jules Gabriël
+    - Verne, Júlio
+    birthdate: 1828
+    deathdate: 1905
+    gutenberg_agent_id: '60'
+    url: http://www.gutenberg.org/2009/agents/60
+    wikipedia:
+    - http://pt.wikipedia.org/wiki/Júlio_Verne
+    - http://fr.wikipedia.org/wiki/Jules_Verne
+    - http://en.wikipedia.org/wiki/Jules_Verne
+description: ''
+gutenberg_issued: '2008-08-23'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '26395'
+language: nl
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'PQ'
+- !lcsh 'Russia -- Fiction'
+- !lcsh 'Historical fiction'
+- !lcsh 'California -- Fiction'
+- !lcsh 'Adventure stories'
+- !lcsh 'Travel -- Fiction'
+- !lcsh 'Alaska -- Fiction'
+title: 'Cesar Cascabel, Deel 2
+
+  Over het IJs en door de Steppe'
+url: http://www.gutenberg.org/ebooks/26395
