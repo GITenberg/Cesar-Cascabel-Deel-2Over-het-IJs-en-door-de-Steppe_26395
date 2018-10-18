@@ -1,83 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
 >
   <pgterms:ebook rdf:about="ebooks/26395">
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N81a2c2d5a0d94620895f541eed1e66b6">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nf4e3a094013047eab66daa5353d1f8ae">
-        <rdf:value>Travel -- Fiction</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N277df5352a604090a73356f099ab94e8">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Historical fiction</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26395/26395-8.txt">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26395.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">221040</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:49:47.939776</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N83da4325fb834ca5a39daf39f8494952">
+          <rdf:Description rdf:nodeID="N00140f078d05451397fc5460a2a1f327">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">424638</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-08-23T09:12:28</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>Cesar Cascabel, Deel 2
-Over het IJs en door de Steppe</dcterms:title>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nae90fbafbb4c42019ad8afec555c8304">
-        <rdf:value>PQ</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N367fa0db70924eaeb544ff0a4596385c">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>California -- Fiction</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-23</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26395/26395-h.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc740c450c17f4389985769d120f21b2f">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5669040</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N240b45fde5ec4fc5ac39e9685028d089">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-08-23T09:12:36</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/26395/26395-h/26395-h.htm">
         <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-08-23T09:12:30</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne7b03bc9751e495a9fe0d5409a7dfbcf">
+          <rdf:Description rdf:nodeID="Ne02493ccdff4473a8415587ef1c25c9d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -85,159 +35,225 @@ Over het IJs en door de Steppe</dcterms:title>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">493784</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26395.epub.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/26395/pg26395.cover.small.jpg">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2066</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4d2ef0961a7d4bef81ba803121981955">
+          <rdf:Description rdf:nodeID="N6283e26714fd4643a4928c70be4c0e11">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">188858</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T01:54:29.284437</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:49:54.595643</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N7736c60fc93e4945bebe2d8976325808">
+        <rdf:value>California -- Fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</pgterms:downloads>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/26395/26395-8.txt">
         <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">424638</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-08-23T09:12:28</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N34292f5e51c04564a82ecb12c9acf00e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26395/26395-8.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26395.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11434747</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne865ed1565944d05885450ac5308a9fd">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="Naef45978720f438b90b6891bcf91e8a7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:49:52.462673</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154528</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N23ff6bc121444b3aa9b6dbf6d0d92a4d">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">nl</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N28ed31e6e55341c0a2cd039a5e2ce9aa">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Alaska -- Fiction</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nbac23bc50721471d8dd8ee2f3cc22fb1">
+        <rdf:value>Travel -- Fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/26395/26395-h.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5669040</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne6245063236747d4bd915a59f41aba11">
+          <rdf:Description rdf:nodeID="N3ec70433237b43d4bba5e40d6373b744">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndc8731f7df354d4aab0b5b1405cbb24c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-08-23T09:12:36</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26395.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2741024</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T01:54:46.310394</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26395.rdf">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N24e1ec51103c4b28b96d8634b0083b6e">
+          <rdf:Description rdf:nodeID="N65deb7399dbc46dc89a0d1495ed6e7c2">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26395.plucker">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8ea100c2e20e4d0abc0aa937c1a9731f">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253135</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T09:59:07.575398</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26395.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8c622e68b26a4bde894513dd9ee4c71c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">424981</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T01:54:24.882835</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ndfc8b585677f48cfb84b7893b95f5555">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Alaska -- Fiction</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N13f40d93d6fa4d049e20741702dd0132">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">nl</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26395.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216511</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3a2cb7133d164e4b89df50ffa00478a0">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T09:59:01.364620</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:20:32.763894</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14706</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nd700dd6ffee74f2282c0d1ceca7c44b2">
-        <rdf:value>Adventure stories</rdf:value>
+      <rdf:Description rdf:nodeID="N9d648cbe4fa6462e9d9da7ffae338667">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Historical fiction</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26395.kindle.noimages">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N831fc4ca401c43fd8e7860b7fd0d1fed">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N63899e1f503e4d8ba6885d65a7b93795">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T01:54:42.027678</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">863446</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">293348</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:49:54.538655</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26395.txt.utf-8">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:49:44.666806</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">424985</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N03450e27cca34c649c0ea8a494eb194a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26395.epub.images">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2a99dcd451b248f3b4343f5d4b7b9fa0">
+          <rdf:Description rdf:nodeID="Na9ebedeba8bc4926b5771e2e6ad01687">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T01:54:40.468230</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:49:47.224757</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2615002</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5509941</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:title>Cesar Cascabel, Deel 2
+Over het IJs en door de Steppe</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-23</dcterms:issued>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Ndabf164311fa4c2496f80e0bd7fe202d">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N561246ca705941a18b5f830212053c39">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PQ</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/60">
-        <pgterms:alias>Verne, Jules Gabriel</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Jules_Verne"/>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1905</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1828</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://fr.wikipedia.org/wiki/Jules_Verne"/>
-        <pgterms:alias>Verne, Júlio</pgterms:alias>
-        <pgterms:alias>Verne, Jules Gabriël</pgterms:alias>
         <pgterms:name>Verne, Jules</pgterms:name>
+        <pgterms:alias>Verne, Júlio</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1828</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Jules_Verne"/>
         <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Júlio_Verne"/>
+        <pgterms:alias>Verne, Jules Gabriel</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://fr.wikipedia.org/wiki/Jules_Verne"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1905</pgterms:deathdate>
+        <pgterms:alias>Verne, Jules Gabriël</pgterms:alias>
       </pgterms:agent>
     </dcterms:creator>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nff64590f58974e12b13a89372a9cddae">
+      <rdf:Description rdf:nodeID="N5aa3dfa3734845bfa163d9ae96acfa8a">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Adventure stories</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N5674b09769ce43b28240ce7d9bbb08c8">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Russia -- Fiction</rdf:value>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/26395/26395-8.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154528</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N418a02a7eac84622b223b49928edebc8">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9c24fa8a5ffa4687929041a630d7660e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-08-23T09:12:36</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/26395/pg26395.cover.medium.jpg">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N959bb9d9c31846afa56416c9816bddfe">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9685</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/26395"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:49:54.645649</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
   <rdf:Description rdf:about="http://pt.wikipedia.org/wiki/Júlio_Verne">
     <dcterms:description>pt.wikipedia</dcterms:description>
